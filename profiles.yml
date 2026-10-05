@@ -1,0 +1,13 @@
+training:
+  outputs:
+    dev:
+      dataset: tredence
+      job_execution_timeout_seconds: 300
+      job_retries: 1
+      location: US
+      method: oauth
+      priority: interactive
+      project: racko-master-project-505113
+      threads: 5
+      type: bigquery
+  target: dev
